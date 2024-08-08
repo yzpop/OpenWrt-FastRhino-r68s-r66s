@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.88.253/g' package/base-files/files/bin/config_generate   # 定制默认IP
 
 # Configure pppoe connection
-#uci set network.wan.proto=pppoe
+uci set network.wan.proto=pppoe
 #uci set network.wan.username='yougotthisfromyour@isp.su'
 #uci set network.wan.password='yourpassword'
 
