@@ -48,3 +48,8 @@ rm -rf feeds/luci/themes/luci-theme-argon
 
 
 # 科学上网插件依赖
+
+
+# 修改主机名
+uci set system.@system[0].hostname="R66S"
+uci commit system
