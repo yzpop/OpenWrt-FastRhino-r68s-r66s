@@ -27,7 +27,7 @@ uci set network.wan.proto=pppoe
 
 # rm -rf feeds/luci/applications/luci-app-vlmcsd
 # rm -rf feeds/luci/applications/luci-i18n-vlmcsd-zh-cn
-# rm -rf feeds/luci/applications/vlmcsd
+rm -rf feeds/luci/applications/vlmcsd
 # rm -rf feeds/luci/applications/luci-app-vsftpd
 # rm -rf feeds/luci/applications/luci-i18n-vsftpd-zh-cn
 # rm -rf feeds/luci/applications/vsftpd-alt
