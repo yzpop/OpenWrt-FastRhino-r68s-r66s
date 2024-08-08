@@ -24,6 +24,16 @@ sed -i 's/192.168.1.1/192.168.88.253/g' package/base-files/files/bin/config_gene
 # rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
 # rm -rf feeds/packages/lang/golang
 # git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+chmod -R 755 files
+rm -rf feeds/luci/applications/luci-app-vlmcsd
+rm -rf feeds/luci/applications/luci-i18n-vlmcsd-zh-cn
+rm -rf feeds/luci/applications/vlmcsd
+rm -rf feeds/luci/applications/luci-app-vsftpd
+rm -rf feeds/luci/applications/luci-i18n-vsftpd-zh-cn
+rm -rf feeds/luci/applications/vsftpd-alt
+rm -rf feeds/luci/applications/luci-app-accesscontrol
+rm -rf feeds/luci/applications/luci-i18n-accesscontrol-zh-cn
+
 
 # 移除重复软件包
 rm -rf feeds/luci/themes/luci-theme-argon
